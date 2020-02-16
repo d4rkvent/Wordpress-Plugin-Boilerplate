@@ -1,0 +1,21 @@
+{
+    "name": "lokes/boilerplate",
+    "description": "This is a plugin boilerplate",
+    "type": "project",
+    "require": {
+        "php": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "boilerplate\\Core\\": "./core"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Lokesh Kumar",
+            "email": "lokesh.suman911@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
