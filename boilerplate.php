@@ -34,5 +34,5 @@ define('BL_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('BL_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('BL_PLUGIN_BASE', plugin_basename(__FILE__));
 
-require BL_PLUGIN_PATH . 'includes/constants.php';
+require BL_PLUGIN_PATH . 'include/constants.php';
 require BL_PLUGIN_PATH . 'vendor/autoload.php';
