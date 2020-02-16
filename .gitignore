@@ -1,2 +1,4 @@
 # ignore all .a files
 *.lock
+/.idea
+.xml
